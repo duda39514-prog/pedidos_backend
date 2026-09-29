@@ -1,0 +1,23 @@
+[
+    {
+        "id": 1,
+        "cliente_id": 1,
+        "produto": "Glifos",
+        "preco": 10,
+        "quantidade": 30
+    },
+     {
+        "id": 2,
+        "cliente_id": 2,
+        "produto": "Colar Mágico",
+        "preco": 100,
+        "quantidade": 1
+    },
+     {
+        "id": 3,
+        "cliente_id": 3,
+        "produto": "Pena com tinta dourada",
+        "preco": 25,
+        "quantidade": 3
+    }
+]

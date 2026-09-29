@@ -1,0 +1,17 @@
+[
+    {
+        "id": 1,
+        "cpf": "123.456.789-00",
+        "nome": "Lexie Blight"
+    },
+     {
+        "id": 2,
+        "cpf": "233.906.989-09",
+        "nome": "Stephanie Salvatore"
+    },
+     {
+        "id": 3,
+        "cpf": "978.341.599-12",
+        "nome": "Juscelino"
+    }
+]
