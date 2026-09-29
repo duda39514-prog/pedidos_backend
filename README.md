@@ -23,3 +23,6 @@ Back-end com duas coleções mockup JSON clientes e pedidos, CRUD, para aprender
 ## Testes:
 ![Teste](./image2.png)
 ![Teste](./image3.png)
+
+## Desafio excluir e alterar testes: 
+
