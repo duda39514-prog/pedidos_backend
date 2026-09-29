@@ -17,4 +17,9 @@ Back-end com duas coleções mockup JSON clientes e pedidos, CRUD, para aprender
 * npm init -y
 * npm i express
 
+## Diagrama
+![UML DC](./image.png)
 
+## Testes:
+![Teste](./image2.png)
+![Teste](./image3.png)
