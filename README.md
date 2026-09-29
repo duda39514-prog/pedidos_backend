@@ -19,3 +19,6 @@ Back-end com duas coleções mockup JSON clientes e pedidos, CRUD, para aprender
 
 ## Diagrama
 ![UML DC](./image.png)
+
+## Testes:
+![Teste](./image2.png)
