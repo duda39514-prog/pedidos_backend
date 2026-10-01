@@ -1,0 +1,17 @@
+[
+    {
+        "id":1,
+        "nome":"Livro Mágico",
+        "preco":30
+    },
+    {
+        "id":2,
+        "nome":"Gnomo Domestico",
+        "preco": 200
+    },
+    {
+        "id": 3,
+        "nome": "Caneta Dourada com tinta de Dragão",
+        "preço": 4000
+    }
+]
