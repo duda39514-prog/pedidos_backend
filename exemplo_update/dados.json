@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "nome":"Jussara",
+        "endereco": "Rua sem saída, 489",
+        "cidade": "Campinas"
+    },
+     {
+        "id": 2,
+        "nome":"Marlene",
+        "endereco": "Rua da lua, 279",
+        "cidade": "Astro 67"
+    },
+     {
+        "id": 3,
+        "nome":"Oswaldo",
+        "endereco": "Rua livros são legais, 283",
+        "cidade": "Bienal"
+    }
+]

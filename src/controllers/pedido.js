@@ -16,22 +16,30 @@ const listar = (req, res) => {
     subtotais()
     res.json(Pedidos)
 }
-const alterar = (req, res) => { 
-    const id = req.query.id;
-   const dados = req.body;
 
-   Pedidos.forEach((Pedidos) =>{
-    if(Pedidos.id == id){
-        Pedidos.cliente_id = dados.cliente_id;
-        Pedidos.produto = dados.produto;
-        Pedidos.preco = dados.preco;
-        Pedidos.quantidade = dados.quantidade;
-    }
-   });
+
+const alterar = (req, res) => { 
+  const dados = {
+  "produto": "Livro mágico 2",
+  "quantidade": "67"
+}
+
+const chaves = Object.keys(dados)
+
+const Pedidos = Pedidos.find((c) => c.id == id)
+
+chaves.forEach((chave) => {
+    Pedidos[chave] = dados[chave]
+})
+
+console.log(Pedidos)
+    
 
    res.send("Pedido atualizado com sucesso!");
 
 }
+
+
 const excluir = (req, res) => {
      const id = req.params.id
       Pedidos.forEach((pedido, indice) => {
